@@ -1,0 +1,41 @@
+@GrammarGuide.API_HostAddress = http://localhost:5133
+
+GET {{GrammarGuide.API_HostAddress}}/content/languages
+Accept: application/json
+
+###
+
+GET {{GrammarGuide.API_HostAddress}}/content/guide/english/english/structure
+Accept: application/json
+
+###
+
+GET {{GrammarGuide.API_HostAddress}}/content/guide/english/english/unit/44
+Accept: application/json
+
+###
+
+GET {{GrammarGuide.API_HostAddress}}/content/guide/english/english/unit/1
+Accept: application/json
+
+###
+
+PUT {{GrammarGuide.API_HostAddress}}/admin/guide/english/english/unit/1/rule/1/image
+Accept: application/json
+
+###
+
+PUT {{GrammarGuide.API_HostAddress}}/admin/guide/english/english/unit/1/rule/1/audio
+Accept: application/json
+
+###
+
+GET {{GrammarGuide.API_HostAddress}}/admin/guide/english/english/unit/1/exercise/1/part/1/image
+Accept: application/json
+
+###
+
+DELETE {{GrammarGuide.API_HostAddress}}/admin/guide/english/spanish/unit/1
+Accept: application/json
+
+###

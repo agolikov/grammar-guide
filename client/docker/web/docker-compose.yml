@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  web:
+    build:
+      context: ../../
+      dockerfile: docker/web/Dockerfile
+    ports:
+      - "80:80"
+    volumes:
+      - ../../:/app
+    environment:
+      NGINX_ENVSUBST_OUTPUT_DIR: /etc/nginx

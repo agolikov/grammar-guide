@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrammarGuide.ContentBuilder", "GrammarGuide.ContentBuilder\GrammarGuide.ContentBuilder.csproj", "{AD75115D-DC8C-4763-BE5C-00A1BA446272}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrammarGuide.API", "GrammarGuide.API\GrammarGuide.API.csproj", "{4BCB33D3-79EF-4D69-82DE-EA7794A336A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C0F13664-E66A-4A0D-A304-6B0F70DEFB19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrammarGuide.Services", "GrammarGuide.Services\GrammarGuide.Services.csproj", "{99EA8E96-AEFB-4B78-8EBF-8FDD5EE0E555}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD75115D-DC8C-4763-BE5C-00A1BA446272}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD75115D-DC8C-4763-BE5C-00A1BA446272}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD75115D-DC8C-4763-BE5C-00A1BA446272}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD75115D-DC8C-4763-BE5C-00A1BA446272}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BCB33D3-79EF-4D69-82DE-EA7794A336A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BCB33D3-79EF-4D69-82DE-EA7794A336A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BCB33D3-79EF-4D69-82DE-EA7794A336A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BCB33D3-79EF-4D69-82DE-EA7794A336A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99EA8E96-AEFB-4B78-8EBF-8FDD5EE0E555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99EA8E96-AEFB-4B78-8EBF-8FDD5EE0E555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99EA8E96-AEFB-4B78-8EBF-8FDD5EE0E555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99EA8E96-AEFB-4B78-8EBF-8FDD5EE0E555}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
