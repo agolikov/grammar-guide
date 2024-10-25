@@ -45,23 +45,21 @@ In addition to AI-driven content, the app offers several useful features:
 
 To run the application, both the backend and client components must be operational. The backend relies heavily on Google Cloud components, necessitating a Google Cloud account.
 
-## Backend Configuration
+#### Backend Configuration
 
-### Prerequisites
+##### Prerequisites
 
 1. **Google Cloud Account:** Ensure you have a valid Google Cloud account.
 2. **Enabled Services:** Confirm that the Vertex AI API is enabled in your Google Cloud project.
 
-### Steps to Configure the Backend
+##### Steps to Configure the Backend
 
 1. **Create a Google Cloud Application:**
-    
     - Navigate to your Google Cloud Console.
     - Create a new application and obtain the cloud configuration JSON file.
     - Replace the existing `ai-app.json` file in the backend root folder with your downloaded JSON file.
 
 1. **Update the `appsettings.json`:**
-    
     - Obtain your **Gemini Access Key** from Google AI Studio.
         - Update the `AppSettings.GeminiApiKey` field with your access key.
     - Deploy a MongoDB database.
@@ -73,11 +71,11 @@ To run the application, both the backend and client components must be operation
             - `PublisherId`
             - `BucketName`
 
-### Running the Backend
+##### Running the Backend
 
 Once the above configurations are completed, you can start the backend application.
 
-## Client Setup
+#### Client Setup
 
 1. **Open the Flutter Project:**
     - Navigate to the "client" folder of your project.
